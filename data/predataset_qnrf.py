@@ -6,13 +6,13 @@ import h5py
 import numpy as np
 import scipy.io
 import scipy.spatial
-from scipy.ndimage.filters import gaussian_filter
+from scipy.ndimage import gaussian_filter
 import math
 import torch
 
 import glob
 '''change your dataset'''
-root = '/home/dkliang/projects/synchronous/dataset/UCF-QNRF_ECCV18'
+root = 'H:\\Datasets\\UCF-QNRF_ECCV18\\UCF-QNRF_ECCV18'
 img_train_path = root + '/Train/'
 img_test_path = root + '/Test/'
 

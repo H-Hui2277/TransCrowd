@@ -1,5 +1,6 @@
 # For My Own Project
 *.ipynb
+dataset/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
